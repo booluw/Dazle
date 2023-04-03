@@ -11,7 +11,8 @@
       </div>
       <div class="md:w-1/3 md:flex flex-col justify-between">
         <div class="">
-          <h3 class="font-semibold">Email</h3>
+          <h3 class="font-semibold mb-2">Email</h3>
+          <a href="mailto:info@dantzleassociates.com" class="text-white opacity-75 hover:opacity-100">info@dantzleassociates.com</a>
         </div>
         <div class="">
           <h3 class="font-semibold">Follow Us</h3>

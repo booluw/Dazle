@@ -1,5 +1,5 @@
 <template>
-  <header class="p-5 md:px-20 bg-white bg-opacity-75 fixed top-0 right-0 left-0 flex items-center justify-between border-b">
+  <header class="p-5 md:px-20 bg-white bg-opacity-75 fixed top-0 right-0 left-0 flex items-center justify-between z-50">
     <input id="checkbox" v-model="checkbox" type="checkbox" />
     <nuxt-link to="/">
       <text-logo />
@@ -9,7 +9,7 @@
       <div class="hamburger__line"></div>
       <div class="hamburger__line hamburger__line--w-50"></div>
     </label>
-    <nav class="mobile-nav fixed md:hidden top-20 right-0 left-0 bottom-0 bg-gray-50 flex flex-col items-center gap-5 pt-20">
+    <nav class="mobile-nav fixed md:hidden top-0 right-0 left-0 bottom-0 bg-white flex flex-col items-center gap-5 pt-40">
       <nuxt-link to="/" class="opacity-85 text-gray-700 text-3xl font-[500]">Home</nuxt-link>
       <nuxt-link to="/about-us" class="opacity-85 text-gray-700 text-3xl font-[500]">About Us</nuxt-link>
       <nuxt-link to="/our-services" class="opacity-85 text-gray-700 text-3xl font-[500]">Our Services</nuxt-link>
@@ -53,7 +53,7 @@ export default {
   }
   .hamburger__line--w-50 {width: 50%;}
   #checkbox {display: none;}
-  .mobile-nav {transform: translateX(100%);}
+  .mobile-nav {transform: translateY(100%); z-index: -1;}
   #checkbox:checked ~ .mobile-nav {
     transition: transform ease-in-out .3s;
     transform: translateX(0);

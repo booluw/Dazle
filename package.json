@@ -30,7 +30,8 @@
     "eslint-plugin-nuxt": "^4.0.0",
     "eslint-plugin-vue": "^9.5.1",
     "postcss": "^8.4.17",
-    "prettier": "^2.7.1"
+    "prettier": "^2.7.1",
+    "tailwind-scrollbar": "^3.0.0"
   },
   "resolutions": {
     "@nuxt/kit": "3.0.0-rc.13"
