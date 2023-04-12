@@ -1,50 +1,42 @@
 <template>
   <div>
     <div class="px-5 py-10 md:px-20 bg-white">
-      <h2 class="text-secondary text-2xl md:text-4xl font-bold">About Us</h2>
+      <h2 class="text-secondary text-2xl md:text-4xl font-bold heading">About Us</h2>
     </div>
     <section
       class="px-5 py-10 md:px-20 bg-white flex flex-col md:flex-row gap-5 md:gap-10"
     >
       <div class="md:w-1/2 flex flex-wrap gap-y-5 md:gap-y-10">
         <div class="w-1/2 p-5 flex flex-col items-center border-r">
-          <img
-            src="~/assets/svgs/Community.svg"
-            class="w-10 md:w-14 mb-3 md:mb-5"
-          />
-          <h3 class="text-xl md:text-2xl font-bold">8,714+</h3>
-          <p class="uppercase text-xs">Happy customers</p>
+        <img
+          src="~/assets/svgs/Community.svg"
+          class="w-10 md:w-14 mb-3 md:mb-5"
+        />
+        <h3 class="text-xl md:text-2xl font-bold">20+</h3>
+        <p class="uppercase text-xs opacity-75">satisfied clients</p>
         </div>
         <div class="w-1/2 p-5 flex flex-col items-center">
           <img
             src="~/assets/svgs/Apartmant.svg"
             class="w-10 md:w-14 mb-3 md:mb-5"
           />
-          <h3 class="text-xl md:text-2xl font-bold">1000</h3>
-          <p class="uppercase text-xs">lOREM Ipsum</p>
+          <h3 class="text-xl md:text-2xl font-bold">40+</h3>
+          <p class="uppercase text-xs opacity-75">successful projects</p>
         </div>
-        <div class="w-1/2 p-5 mt-5 md:mt-0 flex flex-col items-center border-r">
+        <div class="w-1/2 p-5 mt-5 md:mt-0 flex flex-col items-center md:border-r">
           <img
             src="~/assets/svgs/Building.svg"
             class="w-10 md:w-14 mb-3 md:mb-5"
           />
-          <h3 class="text-xl md:text-2xl font-bold">8,714+</h3>
-          <p class="uppercase text-xs">Happy customers</p>
-        </div>
-        <div class="w-1/2 p-5 mt-5 md:mt-0 flex flex-col items-center">
-          <img
-            src="~/assets/svgs/Professional.svg"
-            class="w-10 md:w-14 mb-3 md:mb-5"
-          />
-          <h3 class="text-xl md:text-2xl font-bold">1000</h3>
-          <p class="uppercase text-xs">lOREM Ipsum</p>
+          <h3 class="text-xl md:text-2xl font-bold">10+</h3>
+          <p class="uppercase text-xs opacity-75">years experience</p>
         </div>
       </div>
-      <img src="~/assets/imgs/Group 5.png" class="w-full md:w-1/2 h-auto" />
+      <img src="~/assets/imgs/Group 5.png" class="w-full md:w-1/2 h-auto scaleUp" />
     </section>
     <section class="flex flex-col md:flex-row p-5 md:p-20 bg-white gap-10">
       <div class="md:w-1/2 mt-5 md:order-2">
-        <h2 class="text-secondary text-2xl md:text-4xl font-bold mb-4">
+        <h2 class="text-secondary text-2xl md:text-4xl font-bold mb-4 header">
           Our story
         </h2>
         <p class="">
@@ -75,11 +67,11 @@
           financial goals with confidence.
         </p>
       </div>
-      <img src="~/assets/imgs/Frame 52.png" class="w-full md:w-1/2 h-auto md:order-1" />
+      <img src="~/assets/imgs/Frame 52.png" class="w-full md:w-1/2 h-auto md:order-1 scaleUp" />
     </section>
     <section class="flex flex-col md:flex-row p-5 md:p-20 bg-white gap-10">
       <div
-        class="md:w-1/2 text-black hover:text-white hover:bg-secondary px-10 py-16 shadow-lg rounded-xl"
+        class="md:w-1/2 text-black hover:text-white hover:bg-secondary px-10 py-16 shadow-lg rounded-xl scaleUp"
       >
         <svg
           width="52"
@@ -110,7 +102,7 @@
         </p>
       </div>
       <div
-        class="md:w-1/2 text-black hover:text-white hover:bg-secondary px-10 py-16 shadow-lg rounded-xl"
+        class="md:w-1/2 text-black hover:text-white hover:bg-secondary px-10 py-16 shadow-lg rounded-xl scaleUp"
       >
         <svg
           width="52"
@@ -146,7 +138,7 @@
       </div>
     </section>
     <section class="px-5 py-10 md:p-40 bg-gray-200">
-      <h2 class="text-4xl md:text-6xl text-secondary font-bold mb-5">
+      <h2 class="text-4xl md:text-6xl text-secondary font-bold mb-5 header">
         Take a look at our services
       </h2>
       <nuxt-link to="/our-services" class="text-2xl hover:text-primary transition">
@@ -157,7 +149,22 @@
 </template>
 
 <script>
-export default {}
-</script>
+import { animation } from '~/assets/animation';
 
-<style></style>
+export default {
+  mixins: [animation],
+  head: {
+    title: 'About Us | Datzle',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: `Dantzle & Associates was established with a vision to become the go-to
+          financial analysis firm with a strong commitment to integrity,
+          exceptional customer service, and assisting individuals, businesses,
+          and organizations in making sound financial decisions.`
+      }
+    ],
+  }
+}
+</script>

@@ -4,79 +4,64 @@
       class="flex flex-col items-center md:flex-row gap-10 py-10 px-5 md:py-0 md:px-20"
     >
       <div class="md:w-1/2 flex flex-col gap-5">
-        <h1 class="font-bold text-4xl md:text-6xl text-secondary">
+        <h1 class="font-bold text-4xl md:text-6xl text-secondary heading">
           Comprehensive Financial Solutions, Everytime You Need It.
         </h1>
         <p class="">
-          Dantzle & Associates are a group of financial experts who provide
-          comprehensive financial analysis services to help businesses make
-          informed decisions and achieve their financial goals. Our team of
-          experienced professionals provides a range of services including
-          financial cost analysis, Program Management Office/Control Account
-          Management/Integrated Product Team support, Work Breakdown Structure
-          creation/maintenance, Integrated Baseline Review/Joint Surveillance
-          Review cost preparation, and Baseline Change Request control. Whether
-          you need a one-time analysis or continuous support, we're here to help
-          you make the most of your financial resources."
+          We are a group of financial experts who provide comprehensive
+          financial analysis services to help you make informed decisions and
+          achieve your financial goals.
         </p>
         <div class="flex flex-col md:flex-row gap-5 md:gap-10 md:w-2/3">
           <nuxt-link
             to="#about-us"
-            class="block md:w-1/2 bg-primary text-white p-3 rounded-lg text-center hover:opacity-75 hover:transition hover:-translate-y-1"
+            class="scale block md:w-1/2 bg-primary text-white p-3 rounded-lg text-center hover:opacity-75 hover:transition hover:-translate-y-1"
           >
             Learn More
           </nuxt-link>
           <nuxt-link
             to="/our-services"
-            class="block md:w-1/2 bg-white text-primary border-2 border-primary p-3 rounded-lg text-center hover:transition hover:-translate-y-1"
+            class="scale block md:w-1/2 bg-white text-primary border-2 border-primary p-3 rounded-lg text-center hover:transition hover:-translate-y-1"
           >
             Explore Services
           </nuxt-link>
         </div>
       </div>
-      <img src="~/assets/imgs/Group 14.png" class="md:w-1/2" />
+      <img src="~/assets/imgs/Group 14.png" class="md:w-1/2 scaleUp" />
     </section>
-    <section class="flex flex-wrap p-5 md:px-10 md:py-20 bg-white">
-      <div class="w-1/2 md:w-1/4 p-5 flex flex-col items-center border-r">
+    <section
+      class="flex flex-wrap justify-between p-5 md:px-10 md:py-20 bg-white"
+    >
+      <div class="w-1/2 md:w-1/3 p-5 flex flex-col items-center border-r scaleUp">
         <img
           src="~/assets/svgs/Community.svg"
           class="w-10 md:w-14 mb-3 md:mb-5"
         />
-        <h3 class="text-xl md:text-2xl font-bold">8,714+</h3>
-        <p class="uppercase text-xs">Happy customers</p>
+        <h3 class="text-xl md:text-2xl font-bold">20+</h3>
+        <p class="uppercase text-xs opacity-75">satisfied clients</p>
       </div>
-      <div class="w-1/2 md:w-1/4 p-5 flex flex-col items-center md:border-r">
+      <div class="w-1/2 md:w-1/3 p-5 flex flex-col items-center md:border-r scaleUp">
         <img
           src="~/assets/svgs/Apartmant.svg"
           class="w-10 md:w-14 mb-3 md:mb-5"
         />
-        <h3 class="text-xl md:text-2xl font-bold">1000</h3>
-        <p class="uppercase text-xs">lOREM Ipsum</p>
+        <h3 class="text-xl md:text-2xl font-bold">40+</h3>
+        <p class="uppercase text-xs opacity-75">successful projects</p>
       </div>
-      <div
-        class="w-1/2 md:w-1/4 p-5 mt-5 md:mt-0 flex flex-col items-center border-r"
-      >
+      <div class="w-1/2 md:w-1/3 p-5 mt-5 md:mt-0 flex flex-col items-center scaleUp">
         <img
           src="~/assets/svgs/Building.svg"
           class="w-10 md:w-14 mb-3 md:mb-5"
         />
-        <h3 class="text-xl md:text-2xl font-bold">8,714+</h3>
-        <p class="uppercase text-xs">Happy customers</p>
-      </div>
-      <div class="w-1/2 md:w-1/4 p-5 mt-5 md:mt-0 flex flex-col items-center">
-        <img
-          src="~/assets/svgs/Professional.svg"
-          class="w-10 md:w-14 mb-3 md:mb-5"
-        />
-        <h3 class="text-xl md:text-2xl font-bold">1000</h3>
-        <p class="uppercase text-xs">lOREM Ipsum</p>
+        <h3 class="text-xl md:text-2xl font-bold">10+</h3>
+        <p class="uppercase text-xs opacity-75">years experience</p>
       </div>
     </section>
     <section
       class="px-5 py-10 flex flex-col md:flex-row gap-5 md:gap-10 md:p-20 bg-gray-200"
     >
       <div class="md:w-1/2 md:mt-10">
-        <h2 class="text-secondary text-2xl md:text-4xl font-bold">
+        <h2 class="text-secondary text-2xl md:text-4xl font-bold header">
           Our Services
         </h2>
         <p class="my-5">
@@ -300,28 +285,30 @@
     </section>
     <section class="px-5 py-10 md:p-20 bg-white">
       <div class="md:w-1/3">
-        <h2 class="text-secondary text-2xl md:text-4xl font-bold">About Us</h2>
+        <h2 class="text-secondary text-2xl md:text-4xl font-bold header">About Us</h2>
       </div>
       <div class="flex flex-col md:flex-row gap-5 gap-10 mt-5">
         <div class="md:w-1/2">
-          <img src="~/assets/imgs/About-us.png" class="h-auto w-full rounded-xl" />
+          <img
+            src="~/assets/imgs/About-us.png"
+            class="h-auto w-full rounded-xl scaleUp"
+          />
         </div>
         <div class="md:w-1/2">
           <p class="mb-5">
-            Depuis plus de 10 ans, ROUSSEAU N°5 est une agence immobilière
-            genevoise réputée pour la qualité de son catalogue d’objets, son
-            expertise en fixation de prix de vente et pour la précision de son
-            accompagnement sur mesure. Depuis plus de 10 ans, ROUSSEAU N°5 est
-            une agence immobilière genevoise réputée pour la qualité de son
-            catalogue d’objets, son expertise en fixation de prix de vente et
-            pour la précision de son accompagnement sur mesure. Depuis plus de
-            10 ans, ROUSSEAU N°5 est une agence immobilière genevoise réputée
-            pour la qualité de son catalogue d’objets, son expertise en fixation
-            de prix de vente et pour la précision de son accompagnement sur
-            mesure. Depuis plus de 10 ans, ROUSSEAU N°5 est une agence
-            immobilière genevoise réputée pour la qualité de son catalogue
-            d’objets, son expertise en fixation de prix de vente et pour la
-            précision de son accompagnement sur mesure.
+            At Dantzle & Associates, we are dedicated to providing expert
+            financial analysis services to businesses and organizations of all
+            sizes. Our team of experienced professionals has a deep
+            understanding of the financial challenges facing businesses today,
+            and we work tirelessly to help our clients achieve their goals.
+            <br /><br />
+            With a team made up of made up of experienced professionals in
+            diverse fields, we believe we have all the tools necessary to help
+            your organization succeed. We have a diverse range of backgrounds
+            and expertise, including finance, accounting, and project
+            management. We believe that our team's diversity is one of our
+            greatest strengths, as it allows us to approach each project from
+            multiple perspectives and find the best solutions for our clients.
           </p>
           <nuxt-link
             to="/about-us"
@@ -332,7 +319,7 @@
         </div>
       </div>
     </section>
-    <section class="px-5 py-10 md:p-20 bg-gray-200">
+    <!-- <section class="px-5 py-10 md:p-20 bg-gray-200">
       <h2 class="text-secondary text-2xl md:text-4xl font-bold">
         Latest News/ Upcoming Events
       </h2>
@@ -341,7 +328,10 @@
           <div
             class="md:mr-7 flex flex-col md:flex-row rounded-xl overflow-hidden"
           >
-            <img src="~/assets/imgs/Frame 67-1.png" class="md:h-full md:w-1/3" />
+            <img
+              src="~/assets/imgs/Frame 67-1.png"
+              class="md:h-full md:w-1/3"
+            />
             <div class="bg-white md:w-2/3 p-5 flex flex-col gap-2">
               <p class="text-sm">6 September, 2022</p>
               <h3 class="text-secondary font-bold text-xl">
@@ -444,16 +434,16 @@
           Next
         </button>
       </div>
-    </section>
+    </section> -->
     <section class="px-5 py-10 md:p-40 bg-gray-200">
-      <h2 class="text-4xl md:text-6xl text-secondary font-bold mb-5">
+      <h2 class="text-4xl md:text-6xl text-secondary font-bold mb-5 header">
         Ready to work with us?
       </h2>
       <a href="mailto:" class="text-2xl hover:text-primary transition">
         Start a project &rarr;
       </a>
     </section>
-    <section class="px-5 py-10 md:p-20 bg-white">
+    <!-- <section class="px-5 py-10 md:p-20 bg-white">
       <div class="md:w-1/3">
         <h2 class="text-secondary text-2xl md:text-4xl font-bold">Our Team</h2>
       </div>
@@ -515,17 +505,30 @@
       >
         View All
       </nuxt-link>
-    </section>
+    </section> -->
   </div>
 </template>
 
 <script>
+import { animation } from '~/assets/animation'
+
 export default {
   name: 'IndexPage',
+  mixins: [animation],
   data() {
     return {
       testimonial: 2,
     }
+  },
+  head: {
+    title: 'Home | Datzle',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: `At Dantzle & Associates, we are dedicated to providing expert financial analysis services to businesses and organizations of all sizes. Our team of experienced professionals has a deep understanding of the financial challenges facing businesses today, and we work tirelessly to help our clients achieve their goals.`
+      }
+    ],
   },
   methods: {
     prev() {
@@ -534,6 +537,6 @@ export default {
     next() {
       this.testimonial += 1
     },
-  },
+  }
 }
 </script>

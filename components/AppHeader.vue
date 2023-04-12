@@ -13,16 +13,16 @@
       <nuxt-link to="/" class="opacity-85 text-gray-700 text-3xl font-[500]">Home</nuxt-link>
       <nuxt-link to="/about-us" class="opacity-85 text-gray-700 text-3xl font-[500]">About Us</nuxt-link>
       <nuxt-link to="/our-services" class="opacity-85 text-gray-700 text-3xl font-[500]">Our Services</nuxt-link>
-      <nuxt-link to="/team" class="opacity-85 text-gray-700 text-3xl font-[500]">Team</nuxt-link>
-      <nuxt-link to="/resources" class="opacity-85 text-gray-700 text-3xl font-[500]">Resources</nuxt-link>
+      <!-- <nuxt-link to="/team" class="opacity-85 text-gray-700 text-3xl font-[500]">Team</nuxt-link> -->
+      <!-- <nuxt-link to="/resources" class="opacity-85 text-gray-700 text-3xl font-[500]">Resources</nuxt-link> -->
       <nuxt-link to="/contact-us" class="opacity-85 text-gray-700 text-3xl font-[500]">Contact Us</nuxt-link>
     </nav>
     <nav class="hidden md:flex gap-5">
       <nuxt-link to="/" class="opacity-85 text-gray-700 font-[500]">Home</nuxt-link>
       <nuxt-link to="/about-us" class="opacity-85 text-gray-700 font-[500]">About Us</nuxt-link>
       <nuxt-link to="/our-services" class="opacity-85 text-gray-700 font-[500]">Our Services</nuxt-link>
-      <nuxt-link to="/team" class="opacity-85 text-gray-700 font-[500]">Team</nuxt-link>
-      <nuxt-link to="/resources" class="opacity-85 text-gray-700 font-[500]">Resources</nuxt-link>
+      <!-- <nuxt-link to="/team" class="opacity-85 text-gray-700 font-[500]">Team</nuxt-link> -->
+      <!-- <nuxt-link to="/resources" class="opacity-85 text-gray-700 font-[500]">Resources</nuxt-link> -->
       <nuxt-link to="/contact-us" class="opacity-85 text-gray-700 font-[500]">Contact Us</nuxt-link>
     </nav>
   </header>

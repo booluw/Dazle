@@ -87,10 +87,7 @@
       <div class="md:w-1/3">
         <text-logo color="#FB8A5D" />
         <p class="mt-3 text-sm opacity-75">
-          Depuis plus de 10 ans, ROUSSEAU N°5 est une agence immobilière
-          genevoise réputée pour la qualité de son catalogue d’objets, son
-          expertise en fixation de prix de vente et pour la précision de son
-          accompagnement.
+          At Dantzle & Associates, we are dedicated to providing expert financial analysis services to businesses and organizations of all sizes. Our team of experienced professionals has a deep understanding of the financial challenges facing businesses today, and we work tirelessly to help our clients achieve their goals.
         </p>
       </div>
     </div>
