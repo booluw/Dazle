@@ -67,7 +67,7 @@
           financial goals with confidence.
         </p>
       </div>
-      <img src="~/assets/imgs/Frame 52.png" class="w-full md:w-1/2 h-auto md:order-1 scaleUp" />
+      <img src="~/assets/imgs/Frame 52-story.png" class="w-full md:w-1/2 h-auto md:order-1 scaleUp" />
     </section>
     <section class="flex flex-col md:flex-row p-5 md:p-20 bg-white gap-10">
       <div

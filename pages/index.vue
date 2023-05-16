@@ -58,6 +58,12 @@
       </div>
     </section>
     <section
+      class="flex flex-wrap justify-center items-center gap-5 p-5 md:px-10 md:py-20 bg-white"
+    >
+      <img src="~/assets/imgs/image 4.png" class="w-52 h-auto transition grayscale hover:grayscale-0" />
+      <img src="~/assets/imgs/image 5.png" class="w-52 h-auto transition grayscale hover:grayscale-0" />
+    </section>
+    <section
       class="px-5 py-10 flex flex-col md:flex-row gap-5 md:gap-10 md:p-20 bg-gray-200"
     >
       <div class="md:w-1/2 md:mt-10">
