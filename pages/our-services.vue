@@ -4,7 +4,7 @@
       class="flex flex-col md:flex-row items-center p-5 md:p-20 bg-white gap-10 mb-10 md:mb-0"
     >
       <div class="md:w-1/2 mt-5">
-        <h2 class="text-secondary text-2xl md:text-4xl font-bold mb-4 heading">
+        <h2 class="text-secondary text-2xl md:text-4xl font-bold mb-4 heading text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
           Our Services
         </h2>
         <p class="">
@@ -46,7 +46,7 @@
         />
         <nuxt-link
           to="/our-services"
-          class="inline-block bg-primary text-white text-center py-4 px-10 rounded-lg hover:opacity-75 hover:transition hover:-translate-y-1 md:order-3"
+          class="inline-block bg-primary bg-gradient-to-l to-primary from-secondary text-white p-3 rounded-lg text-center hover:transition hover:from-primary hover:to-secondary text-white text-center py-4 px-10 rounded-lg hover:-translate-y-1 hover:transition md:order-3"
         >
           Read More
         </nuxt-link>
@@ -79,7 +79,7 @@
         />
         <nuxt-link
           to="/our-services"
-          class="inline-block bg-primary text-white text-center py-4 px-10 rounded-lg hover:opacity-75 hover:transition hover:-translate-y-1 md:order-3"
+          class="inline-block bg-primary bg-gradient-to-l to-primary from-secondary text-white p-3 rounded-lg text-center hover:transition hover:from-primary hover:to-secondary text-white text-center py-4 px-10 rounded-lg hover:transition hover:-translate-y-1 md:order-3"
         >
           Read More
         </nuxt-link>
@@ -114,7 +114,7 @@
         />
         <nuxt-link
           to="/our-services"
-          class="inline-block bg-primary text-white text-center py-4 px-10 rounded-lg hover:opacity-75 hover:transition hover:-translate-y-1 md:order-3"
+          class="inline-block bg-primary bg-gradient-to-l to-primary from-secondary text-white p-3 rounded-lg text-center hover:transition hover:from-primary hover:to-secondary text-white text-center py-4 px-10 rounded-lg hover:transition hover:-translate-y-1 md:order-3"
         >
           Read More
         </nuxt-link>
@@ -122,7 +122,7 @@
     </section>
     
     <section class="px-5 py-10 md:p-40 bg-gray-200">
-      <h2 class="text-4xl md:text-6xl text-secondary font-bold mb-5 header">
+      <h2 class="text-4xl md:text-6xl text-secondary font-bold mb-5 header text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
         Ready to work with us?
       </h2>
       <a href="mailto:" class="text-2xl hover:text-primary transition">

@@ -4,7 +4,7 @@
       class="flex flex-col md:flex-row items-center p-5 md:p-20 bg-white gap-10 mb-10 md:mb-0"
     >
       <div class="md:w-1/2 mt-5">
-        <h2 class="text-secondary text-2xl md:text-4xl font-bold mb-4">
+        <h2 class="text-secondary text-2xl md:text-4xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
           Resources
         </h2>
         <p class="">

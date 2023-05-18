@@ -4,7 +4,7 @@
       class="flex flex-col md:flex-row items-center p-5 md:p-20 bg-white gap-10 mb-10 md:mb-0"
     >
       <div class="md:w-1/2 mt-5">
-        <h2 class="text-secondary text-2xl md:text-4xl font-bold mb-4 heading">
+        <h2 class="text-secondary text-2xl md:text-4xl font-bold mb-4 heading text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
           Contact Us
         </h2>
         <p class="">
@@ -59,7 +59,7 @@
 
           <button
             type="submit"
-            class="mt-5 block w-full bg-primary text-white text-center py-4 px-10 rounded-lg hover:opacity-75 hover:transition hover:-translate-y-1"
+            class="mt-5 block w-full bg-primary bg-gradient-to-l to-primary from-secondary text-white text-center py-4 px-10 rounded-lg hover:opacity-75 hover:transition hover:-translate-y-1 hover:from-primary hover:to-secondary"
           >
             Submit
           </button>

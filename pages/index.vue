@@ -4,7 +4,7 @@
       class="flex flex-col items-center md:flex-row gap-10 py-10 px-5 md:py-0 md:px-20"
     >
       <div class="md:w-1/2 flex flex-col gap-5">
-        <h1 class="font-bold text-4xl md:text-6xl text-secondary heading">
+        <h1 class="font-bold text-4xl md:text-6xl text-secondary heading text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
           Comprehensive Financial Solutions, Everytime You Need It.
         </h1>
         <p class="">
@@ -15,16 +15,20 @@
         <div class="flex flex-col md:flex-row gap-5 md:gap-10 md:w-2/3">
           <nuxt-link
             to="#about-us"
-            class="scale block md:w-1/2 bg-primary text-white p-3 rounded-lg text-center hover:opacity-75 hover:transition hover:-translate-y-1"
+            class="scale block md:w-1/2 bg-primary bg-gradient-to-l to-primary from-secondary text-white p-3 rounded-lg text-center hover:transition hover:from-primary hover:to-secondary"
           >
             Learn More
           </nuxt-link>
-          <nuxt-link
-            to="/our-services"
-            class="scale block md:w-1/2 bg-white text-primary border-2 border-primary p-3 rounded-lg text-center hover:transition hover:-translate-y-1"
-          >
-            Explore Services
-          </nuxt-link>
+          <div class="scale md:w-1/2 p-[1px] bg-gradient-to-r from-primary to-secondary rounded-lg hover:transition hover:to-primary hover:from-secondary">
+            <nuxt-link
+              to="/our-services"
+              class="block bg-white text-primary p-3 rounded-lg text-center"
+            >
+              <span class="text-secondary text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary hover:transition hover:to-primary hover:from-secondary">
+                Explore Services
+              </span>
+            </nuxt-link>
+          </div>
         </div>
       </div>
       <img src="~/assets/imgs/Group 14.png" class="md:w-1/2 scaleUp" />
@@ -80,7 +84,7 @@
         </p>
         <nuxt-link
           to="/our-services"
-          class="block w-2/3 md:w-1/4 bg-primary text-white text-center p-4 rounded-lg hover:opacity-75 hover:transition hover:-translate-y-1"
+          class="block w-2/3 md:w-1/4 bg-primary bg-gradient-to-l to-primary from-secondary text-white p-3 rounded-lg text-center hover:transition hover:from-primary hover:to-secondary text-white text-center p-4 rounded-lg hover:transition"
         >
           Explore All
         </nuxt-link>
@@ -318,7 +322,7 @@
           </p>
           <nuxt-link
             to="/about-us"
-            class="block w-2/3 md:w-1/4 bg-primary text-white text-center p-4 rounded-lg hover:opacity-75 hover:transition hover:-translate-y-1"
+            class="block w-2/3 md:w-1/4 bg-primary bg-gradient-to-l to-primary from-secondary text-white p-3 rounded-lg text-center hover:transition hover:from-primary hover:to-secondary text-white text-center p-4 rounded-lg hover:transition"
           >
             Learn More
           </nuxt-link>
@@ -442,7 +446,7 @@
       </div>
     </section> -->
     <section class="px-5 py-10 md:p-40 bg-gray-200">
-      <h2 class="text-4xl md:text-6xl text-secondary font-bold mb-5 header">
+      <h2 class="text-4xl md:text-6xl text-secondary font-bold mb-5 header text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
         Ready to work with us?
       </h2>
       <a href="mailto:" class="text-2xl hover:text-primary transition">

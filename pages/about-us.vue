@@ -1,38 +1,59 @@
 <template>
   <div>
-    <div class="px-5 py-10 md:px-20 bg-white">
-      <h2 class="text-secondary text-2xl md:text-4xl font-bold heading">About Us</h2>
-    </div>
     <section
       class="px-5 py-10 md:px-20 bg-white flex flex-col md:flex-row gap-5 md:gap-10"
     >
-      <div class="md:w-1/2 flex flex-wrap gap-y-5 md:gap-y-10">
-        <div class="w-1/2 p-5 flex flex-col items-center border-r">
+      <div class="md:w-1/2 mt-5">
+        <h2 class="text-secondary text-2xl md:text-4xl font-bold mb-4 heading text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
+          About US
+        </h2>
+        <p class="">
+          At Dantzle & Associates, we are dedicated to providing expert
+          financial analysis services to businesses and organizations of all
+          sizes. Our team of experienced professionals has a deep understanding
+          of the financial challenges facing businesses today, and we work
+          tirelessly to help our clients achieve their goals. With a team made
+          up of made up of experienced professionals in diverse fields, we
+          believe we have all the tools necessary to help your organization
+          succeed. We have a diverse range of backgrounds and expertise,
+          including finance, accounting, and project management. We believe that
+          our team's diversity is one of our greatest strengths, as it allows us
+          to approach each project from multiple perspectives and find the best
+          solutions for our clients.
+        </p>
+      </div>
+      <img
+        src="~/assets/imgs/Group 5.png"
+        class="w-full md:w-1/2 h-auto scaleUp"
+      />
+    </section>
+    <section
+      class="flex flex-wrap justify-between p-5 md:px-10 md:py-20 bg-white"
+    >
+      <div class="w-1/2 md:w-1/3 p-5 flex flex-col items-center border-r scaleUp">
         <img
           src="~/assets/svgs/Community.svg"
           class="w-10 md:w-14 mb-3 md:mb-5"
         />
         <h3 class="text-xl md:text-2xl font-bold">20+</h3>
         <p class="uppercase text-xs opacity-75">satisfied clients</p>
-        </div>
-        <div class="w-1/2 p-5 flex flex-col items-center">
-          <img
-            src="~/assets/svgs/Apartmant.svg"
-            class="w-10 md:w-14 mb-3 md:mb-5"
-          />
-          <h3 class="text-xl md:text-2xl font-bold">40+</h3>
-          <p class="uppercase text-xs opacity-75">successful projects</p>
-        </div>
-        <div class="w-1/2 p-5 mt-5 md:mt-0 flex flex-col items-center md:border-r">
-          <img
-            src="~/assets/svgs/Building.svg"
-            class="w-10 md:w-14 mb-3 md:mb-5"
-          />
-          <h3 class="text-xl md:text-2xl font-bold">10+</h3>
-          <p class="uppercase text-xs opacity-75">years experience</p>
-        </div>
       </div>
-      <img src="~/assets/imgs/Group 5.png" class="w-full md:w-1/2 h-auto scaleUp" />
+      <div class="w-1/2 md:w-1/3 p-5 flex flex-col items-center md:border-r scaleUp">
+        <img
+          src="~/assets/svgs/Apartmant.svg"
+          class="w-10 md:w-14 mb-3 md:mb-5"
+        />
+        <h3 class="text-xl md:text-2xl font-bold">40+</h3>
+        <p class="uppercase text-xs opacity-75">successful projects</p>
+      </div>
+      <div class="w-1/2 md:w-1/3 p-5 mt-5 md:mt-0 flex flex-col items-center scaleUp">
+        <img
+          src="~/assets/svgs/Building.svg"
+          class="w-10 md:w-14 mb-3 md:mb-5"
+        />
+        <h3 class="text-xl md:text-2xl font-bold">10+</h3>
+        <p class="uppercase text-xs opacity-75">years experience</p>
+      </div>
     </section>
     <section class="flex flex-col md:flex-row p-5 md:p-20 bg-white gap-10">
       <div class="md:w-1/2 mt-5 md:order-2">
@@ -67,7 +88,10 @@
           financial goals with confidence.
         </p>
       </div>
-      <img src="~/assets/imgs/Frame 52-story.png" class="w-full md:w-1/2 h-auto md:order-1 scaleUp" />
+      <img
+        src="~/assets/imgs/Frame 52-story.png"
+        class="w-full md:w-1/2 h-auto md:order-1 scaleUp"
+      />
     </section>
     <section class="flex flex-col md:flex-row p-5 md:p-20 bg-white gap-10">
       <div
@@ -138,10 +162,13 @@
       </div>
     </section>
     <section class="px-5 py-10 md:p-40 bg-gray-200">
-      <h2 class="text-4xl md:text-6xl text-secondary font-bold mb-5 header">
+      <h2 class="text-4xl md:text-6xl text-secondary font-bold mb-5 header text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
         Take a look at our services
       </h2>
-      <nuxt-link to="/our-services" class="text-2xl hover:text-primary transition">
+      <nuxt-link
+        to="/our-services"
+        class="text-2xl hover:text-primary transition"
+      >
         Our Services &rarr;
       </nuxt-link>
     </section>
@@ -149,7 +176,7 @@
 </template>
 
 <script>
-import { animation } from '~/assets/animation';
+import { animation } from '~/assets/animation'
 
 export default {
   mixins: [animation],
@@ -162,9 +189,9 @@ export default {
         content: `Dantzle & Associates was established with a vision to become the go-to
           financial analysis firm with a strong commitment to integrity,
           exceptional customer service, and assisting individuals, businesses,
-          and organizations in making sound financial decisions.`
-      }
+          and organizations in making sound financial decisions.`,
+      },
     ],
-  }
+  },
 }
 </script>
