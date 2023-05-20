@@ -27,9 +27,8 @@
           Connect With Our Sales Team
         </h2>
         <p class="text-center text-sm text-gray-400">
-          For any questions, clarification or to get a quote, fill the form below.
-          <br />
-          We will respond as soon as possible
+          Dantzle & Associates<br />
+          Expert financial services, always available for you.
         </p>
         <form class="md:w-1/2 mx-auto my-10 scaleUp" @submit.prevent="">
           <input

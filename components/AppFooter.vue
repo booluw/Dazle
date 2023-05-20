@@ -4,8 +4,9 @@
       <div class="md:w-1/3 md:flex flex-col justify-between">
         <div class="">
           <h3 class="font-semibold">Phone</h3>
+          (310) 904-9153
         </div>
-        <div class="">
+        <div class="hidden">
           <h3 class="font-semibold">Address</h3>
         </div>
       </div>

@@ -4,7 +4,9 @@
       class="px-5 py-10 md:px-20 bg-white flex flex-col md:flex-row gap-5 md:gap-10"
     >
       <div class="md:w-1/2 mt-5">
-        <h2 class="text-secondary text-2xl md:text-4xl font-bold mb-4 heading text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
+        <h2
+          class="text-secondary text-2xl md:text-4xl font-bold mb-4 heading text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary"
+        >
           About US
         </h2>
         <p class="">
@@ -30,7 +32,9 @@
     <section
       class="flex flex-wrap justify-between p-5 md:px-10 md:py-20 bg-white"
     >
-      <div class="w-1/2 md:w-1/3 p-5 flex flex-col items-center border-r scaleUp">
+      <div
+        class="w-1/2 md:w-1/3 p-5 flex flex-col items-center border-r scaleUp"
+      >
         <img
           src="~/assets/svgs/Community.svg"
           class="w-10 md:w-14 mb-3 md:mb-5"
@@ -38,7 +42,9 @@
         <h3 class="text-xl md:text-2xl font-bold">20+</h3>
         <p class="uppercase text-xs opacity-75">satisfied clients</p>
       </div>
-      <div class="w-1/2 md:w-1/3 p-5 flex flex-col items-center md:border-r scaleUp">
+      <div
+        class="w-1/2 md:w-1/3 p-5 flex flex-col items-center md:border-r scaleUp"
+      >
         <img
           src="~/assets/svgs/Apartmant.svg"
           class="w-10 md:w-14 mb-3 md:mb-5"
@@ -46,7 +52,9 @@
         <h3 class="text-xl md:text-2xl font-bold">40+</h3>
         <p class="uppercase text-xs opacity-75">successful projects</p>
       </div>
-      <div class="w-1/2 md:w-1/3 p-5 mt-5 md:mt-0 flex flex-col items-center scaleUp">
+      <div
+        class="w-1/2 md:w-1/3 p-5 mt-5 md:mt-0 flex flex-col items-center scaleUp"
+      >
         <img
           src="~/assets/svgs/Building.svg"
           class="w-10 md:w-14 mb-3 md:mb-5"
@@ -62,30 +70,36 @@
         </h2>
         <p class="">
           Dantzle & Associates was established with a vision to become the go-to
-          financial analysis firm with a strong commitment to integrity,
-          exceptional customer service, and assisting individuals, businesses,
-          and organizations in making sound financial decisions.<br /><br />
-          Our CEO, Torretta Dantzler, brings years of experience in the sector,
-          having worked for the government and witnessing firsthand the
-          challenges that businesses and organizations face in finding credible
-          financial experts. With this in mind, Dantzle & Associates was created
-          to bridge that gap and offer tailored solutions to our clients.<br /><br />
-          We are proud to be a certified WOSB and WBENC company, and are
-          committed to promoting diversity and creating opportunities for women
-          and minorities in the business world. We strongly believe that by
-          promoting inclusivity and diversity, we can pave the way for a better
-          future for all.<br /><br />
-          Our mission is simple, yet powerful - to provide our clients with the
-          highest quality financial analysis services possible. We understand
-          that everyone's financial dreams are unique, and we work closely with
-          our clients to ensure that their goals are met. By working together,
-          we can help our clients achieve their financial dreams and create a
-          better future for all. <br /><br />Dantzle & Associates takes pride in
-          our commitment to integrity, exceptional customer service, and
+          Earned Value providers with a strong commitment to integrity,
+          exceptional customer service, and assisting DOD, Aerospace, and
+          Private Companies in creating and executing successful programs.
+          <br /><br />
+          Our CEO, Torretta Dantzler, is an expert in Earned Value Management,
+          preparation of formal Cost Performance reports, maintaining system
+          descriptions, executing program baselines, analyzing baselines,
+          writing variance explanations and BCR/change control implementation,
+          garnered from years of experience working predominantly in the
+          Aerospace/DOD Industry, and later with other organizations and
+          businesses that require project management. This gave her the
+          opportunity to witness firsthand the challenges that departments and
+          organizations in the Defense/Aerospace industries face in finding
+          credible project management experts. Dantzle & Associates was created
+          to bridge that gap and offer tailored solutions to clients.
+          <br /><br />
+          We are proud to be a certified (WOSB) Woman Owned Small Business and WBENC
+          company and are committed to promoting diversity and creating
+          opportunities for women and minorities in the business world. We
+          strongly believe that by promoting inclusivity and diversity, we can
+          pave the way for a better future for all.
+          <br /><br />
+          Our mission is simple, yet powerful - to provide our clients with the highest quality earned
+          value services possible. We understand that every project is unique
+          and “one size” does not fit all.
+          <br /><br />
+          Dantzle & Associates takes pride in our commitment to integrity, exceptional customer service, and
           delivering results that exceed our clients' expectations. We believe
           that through our personalized approach and expertise, we can help our
-          clients navigate the complex world of finance and achieve their
-          financial goals with confidence.
+          clients navigate the complex world of earned value management.
         </p>
       </div>
       <img
@@ -113,16 +127,7 @@
         </svg>
         <h3 class="text-xl my-5 font-semibold">Our Vision</h3>
         <p class="">
-          Our vision at Dantzle & Associates is to be the leading financial
-          analysis company in the industry, known for integrity andproviding
-          exceptional services that exceed our clients' expectations. We strive
-          to empower individuals and businesses alike to make informed financial
-          decisions that lead to long-term success and prosperity. We envision a
-          future where financial analysis services are accessible to everyone,
-          regardless of their background or financial situation, and where
-          diversity and inclusivity are at the forefront of the business world.
-          Through hard work, dedication, and a commitment to excellence, we aim
-          to create a better future for all.
+          Our vision at Dantzle & Associates is to be the leading earned value project management firm in the industry. We envision a future where top-notch program management services are available in all industries, and where diversity and inclusivity are at the forefront of the business world.
         </p>
       </div>
       <div
@@ -145,24 +150,14 @@
 
         <h3 class="text-xl my-5 font-semibold">Our Mission</h3>
         <p class="">
-          Our mission at Dantzle & Associates is to provide our clients with
-          top-notch financial analysis services that are tailored to meet their
-          unique needs and goals. We believe in a client-centric approach that
-          puts our clients' needs first, and we are committed to providing
-          exceptional services that exceed their expectations. Our team of
-          experts is dedicated to staying up-to-date on the latest industry
-          trends and technologies to ensure that we are providing the most
-          accurate and relevant information to our clients. We are committed to
-          promoting diversity and inclusivity in the business world, and we
-          believe that our success is a direct reflection of the hard work and
-          dedication that we bring to each and every project. Our mission is to
-          help our clients achieve their financial dreams and create a better
-          future for themselves and their communities.
+          Our mission at Dantzle & Associates is to provide our clients with white glove Earned Value services that are tailored to meet their unique needs and goals. Our simplistic approach is to help our clients achieve their project team cost/schedule expectations on time and within budget.
         </p>
       </div>
     </section>
     <section class="px-5 py-10 md:p-40 bg-gray-200">
-      <h2 class="text-4xl md:text-6xl text-secondary font-bold mb-5 header text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
+      <h2
+        class="text-4xl md:text-6xl text-secondary font-bold mb-5 header text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary"
+      >
         Take a look at our services
       </h2>
       <nuxt-link
