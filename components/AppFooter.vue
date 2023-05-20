@@ -13,7 +13,11 @@
       <div class="md:w-1/3 md:flex flex-col justify-between">
         <div class="">
           <h3 class="font-semibold mb-2">Email</h3>
-          <a href="mailto:info@dantzleassociates.com" class="text-white opacity-75 hover:opacity-100">info@dantzleassociates.com</a>
+          <a
+            href="mailto:info@dantzleassociates.com"
+            class="text-white opacity-75 hover:opacity-100"
+            >info@dantzleassociates.com</a
+          >
         </div>
         <div class="">
           <h3 class="font-semibold">Follow Us</h3>
@@ -88,7 +92,12 @@
       <div class="md:w-1/3">
         <text-logo color="#FB8A5D" />
         <p class="mt-3 text-sm opacity-75">
-          At Dantzle & Associates, we are dedicated to providing expert financial analysis services to businesses and organizations of all sizes. Our team of experienced professionals has a deep understanding of the financial challenges facing businesses today, and we work tirelessly to help our clients achieve their goals.
+          At Dantzle & Associates, we are dedicated to providing expert program
+          management services to departments and organizations of all sizes. Our
+          team of experienced professionals have a deep understanding of the
+          challenges departments face in the area of program management, and we
+          have the expertise and commitment to providing solutions to those
+          challenges.
         </p>
       </div>
     </div>

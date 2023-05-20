@@ -4,13 +4,15 @@
       class="flex flex-col items-center md:flex-row gap-10 py-10 px-5 md:py-0 md:px-20"
     >
       <div class="md:w-1/2 flex flex-col gap-5">
-        <h1 class="font-bold text-4xl md:text-6xl text-secondary heading text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
-          Comprehensive Financial Solutions, Everytime You Need It.
+        <h1
+          class="font-bold text-4xl md:text-6xl text-secondary heading text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary"
+        >
+          Comprehensive Program Management Solutions, Every time You Need It.
         </h1>
         <p class="">
-          We are a group of financial experts who provide comprehensive
-          financial analysis services to help you make informed decisions and
-          achieve your financial goals.
+          We are a group of Earned Value Management experts who provide
+          comprehensive Project management analysis to help your team make
+          informed decisions and achieve your program goals.
         </p>
         <div class="flex flex-col md:flex-row gap-5 md:gap-10 md:w-2/3">
           <nuxt-link
@@ -19,12 +21,16 @@
           >
             Learn More
           </nuxt-link>
-          <div class="scale md:w-1/2 p-[1px] bg-gradient-to-r from-primary to-secondary rounded-lg hover:transition hover:to-primary hover:from-secondary">
+          <div
+            class="scale md:w-1/2 p-[1px] bg-gradient-to-r from-primary to-secondary rounded-lg hover:transition hover:to-primary hover:from-secondary"
+          >
             <nuxt-link
               to="/our-services"
               class="block bg-white text-primary p-3 rounded-lg text-center"
             >
-              <span class="text-secondary text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary hover:transition hover:to-primary hover:from-secondary">
+              <span
+                class="text-secondary text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary hover:transition hover:to-primary hover:from-secondary"
+              >
                 Explore Services
               </span>
             </nuxt-link>
@@ -36,7 +42,9 @@
     <section
       class="flex flex-wrap justify-between p-5 md:px-10 md:py-20 bg-white"
     >
-      <div class="w-1/2 md:w-1/3 p-5 flex flex-col items-center border-r scaleUp">
+      <div
+        class="w-1/2 md:w-1/3 p-5 flex flex-col items-center border-r scaleUp"
+      >
         <img
           src="~/assets/svgs/Community.svg"
           class="w-10 md:w-14 mb-3 md:mb-5"
@@ -44,7 +52,9 @@
         <h3 class="text-xl md:text-2xl font-bold">20+</h3>
         <p class="uppercase text-xs opacity-75">satisfied clients</p>
       </div>
-      <div class="w-1/2 md:w-1/3 p-5 flex flex-col items-center md:border-r scaleUp">
+      <div
+        class="w-1/2 md:w-1/3 p-5 flex flex-col items-center md:border-r scaleUp"
+      >
         <img
           src="~/assets/svgs/Apartmant.svg"
           class="w-10 md:w-14 mb-3 md:mb-5"
@@ -52,7 +62,9 @@
         <h3 class="text-xl md:text-2xl font-bold">40+</h3>
         <p class="uppercase text-xs opacity-75">successful projects</p>
       </div>
-      <div class="w-1/2 md:w-1/3 p-5 mt-5 md:mt-0 flex flex-col items-center scaleUp">
+      <div
+        class="w-1/2 md:w-1/3 p-5 mt-5 md:mt-0 flex flex-col items-center scaleUp"
+      >
         <img
           src="~/assets/svgs/Building.svg"
           class="w-10 md:w-14 mb-3 md:mb-5"
@@ -64,8 +76,14 @@
     <section
       class="flex flex-wrap justify-center items-center gap-5 p-5 md:px-10 md:py-20 bg-white"
     >
-      <img src="~/assets/imgs/image 4.png" class="w-52 h-auto transition grayscale hover:grayscale-0" />
-      <img src="~/assets/imgs/image 5.png" class="w-52 h-auto transition grayscale hover:grayscale-0" />
+      <img
+        src="~/assets/imgs/image 4.png"
+        class="w-52 h-auto transition grayscale hover:grayscale-0"
+      />
+      <img
+        src="~/assets/imgs/image 5.png"
+        class="w-52 h-auto transition grayscale hover:grayscale-0"
+      />
     </section>
     <section
       class="px-5 py-10 flex flex-col md:flex-row gap-5 md:gap-10 md:p-20 bg-gray-200"
@@ -75,12 +93,13 @@
           Our Services
         </h2>
         <p class="my-5">
-          We offer a wide range of financial analysis services, including
-          financial cost analysis, PMO/CAM/IPT support, WBS structure
-          creation/maintenance, IBR/JSR cost preparation, and BCR change
-          control. Our team has a wealth of experience in these areas, and we
-          are constantly updating our skills and knowledge to stay ahead of the
-          curve.
+          We offer a wide range of Earned Value Management (EVMS) analysis,
+          including cost/schedule analysis, PMO/CAM/IPT support, WBS structure
+          creation and/or maintenance, Integrated Baseline/Joint Surveillance
+          Review preparation, Baseline Change Control, and other various program
+          related efforts. Our team has a wealth of experience in the referenced
+          areas, and we are constantly updating our skills and knowledge to stay
+          ahead of the curve.
         </p>
         <nuxt-link
           to="/our-services"
@@ -295,7 +314,9 @@
     </section>
     <section class="px-5 py-10 md:p-20 bg-white">
       <div class="md:w-1/3">
-        <h2 class="text-secondary text-2xl md:text-4xl font-bold header">About Us</h2>
+        <h2 class="text-secondary text-2xl md:text-4xl font-bold header">
+          About Us
+        </h2>
       </div>
       <div class="flex flex-col md:flex-row gap-5 gap-10 mt-5">
         <div class="md:w-1/2">
@@ -330,7 +351,9 @@
       </div>
     </section>
     <section class="px-5 py-10 md:p-40 bg-gray-200">
-      <h2 class="text-4xl md:text-6xl text-secondary font-bold mb-5 header text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
+      <h2
+        class="text-4xl md:text-6xl text-secondary font-bold mb-5 header text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary"
+      >
         Ready to work with us?
       </h2>
       <a href="mailto:" class="text-2xl hover:text-primary transition">
@@ -379,8 +402,8 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: `At Dantzle & Associates, we are dedicated to providing expert financial analysis services to businesses and organizations of all sizes. Our team of experienced professionals has a deep understanding of the financial challenges facing businesses today, and we work tirelessly to help our clients achieve their goals.`
-      }
+        content: `At Dantzle & Associates, we are dedicated to providing expert financial analysis services to businesses and organizations of all sizes. Our team of experienced professionals has a deep understanding of the financial challenges facing businesses today, and we work tirelessly to help our clients achieve their goals.`,
+      },
     ],
   },
   methods: {
@@ -390,6 +413,6 @@ export default {
     next() {
       this.testimonial += 1
     },
-  }
+  },
 }
 </script>
