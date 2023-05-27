@@ -28,7 +28,7 @@
         </h2>
         <p class="text-center text-sm text-gray-400">
           Dantzle & Associates<br />
-          Expert financial services, always available for you.
+          Expert program management services, always available for you.
         </p>
         <form class="md:w-1/2 mx-auto my-10 scaleUp" @submit.prevent="">
           <input

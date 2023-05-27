@@ -327,11 +327,8 @@
         </div>
         <div class="md:w-1/2">
           <p class="mb-5">
-            At Dantzle & Associates, we are dedicated to providing expert
-            financial analysis services to businesses and organizations of all
-            sizes. Our team of experienced professionals has a deep
-            understanding of the financial challenges facing businesses today,
-            and we work tirelessly to help our clients achieve their goals.
+            At Dantzle & Associates, we provide expert Earned Value Management services to businesses and organizations of all sizes.
+            Our team of experienced professionals have a deep understanding of the program management chanllenges facing businesses today, and we work tirelessly to help our clients achieve their goals.
             <br /><br />
             With a team made up of made up of experienced professionals in
             diverse fields, we believe we have all the tools necessary to help
