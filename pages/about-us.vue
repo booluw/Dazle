@@ -26,7 +26,7 @@
       </div>
       <img
         src="~/assets/imgs/Group 5.png"
-        class="w-full md:w-1/2 h-auto scaleUp"
+        class="w-full md:w-1/2 h-auto scaleUp rounded-[100px] rounded-bl-none"
       />
     </section>
     <section
@@ -39,7 +39,7 @@
           src="~/assets/svgs/Community.svg"
           class="w-10 md:w-14 mb-3 md:mb-5"
         />
-        <h3 class="text-xl md:text-2xl font-bold">20+</h3>
+        <h3 class="text-xl md:text-2xl font-bold">10+</h3>
         <p class="uppercase text-xs opacity-75">satisfied clients</p>
       </div>
       <div
@@ -59,7 +59,7 @@
           src="~/assets/svgs/Building.svg"
           class="w-10 md:w-14 mb-3 md:mb-5"
         />
-        <h3 class="text-xl md:text-2xl font-bold">10+</h3>
+        <h3 class="text-xl md:text-2xl font-bold">20+</h3>
         <p class="uppercase text-xs opacity-75">years experience</p>
       </div>
     </section>

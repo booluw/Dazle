@@ -33,7 +33,7 @@
       </div>
       <img
         src="~/assets/imgs/ServicesGroup.png"
-        class="w-full md:w-1/2 h-auto scaleUp"
+        class="w-full md:w-1/2 h-auto scaleUp rounded-[100px] rounded-bl-none"
       />
     </section>
     <section class="flex flex-col md:flex-row p-5 md:p-20 bg-white gap-10">
